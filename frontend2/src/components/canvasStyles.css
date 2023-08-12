@@ -1,0 +1,11 @@
+canvas {
+  border: 1px solid white;
+}
+
+.visualiserCointainer {
+  display: flex;
+}
+
+.canvas-holder {
+  position: relative;
+}

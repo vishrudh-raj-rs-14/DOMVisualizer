@@ -1,0 +1,125 @@
+.editor {
+  background-color: rgb(17, 16, 16);
+  width: 100%;
+  padding: 20px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(10, 38, 71);
+  margin: 10px 0;
+  padding: 10px;
+}
+.element-name {
+  font-size: 15px;
+  background-color: rgb(14, 120, 219);
+  padding: 8px 12px;
+  border-radius: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.element-classes {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.styles {
+  width: 100%;
+  height: 85%;
+  padding: 10px;
+  background-color: rgb(10, 38, 71);
+}
+
+.style-header {
+  font-size: 15px;
+  background-color: rgb(14, 120, 219);
+  padding: 8px 12px;
+  border-radius: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.style-cointainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.style-class {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 54, 88);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.props {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-ele {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.props input {
+  all: unset;
+  font-size: 14px;
+  /* border: 1px solid rgba(255, 255, 255, 0.253); */
+}
+
+.field {
+  margin-right: 7px;
+  font-size: 14px;
+}
+
+.add-node {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  transition: all 250ms ease;
+}
+
+.add-node:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.add-node:active {
+  transform: scale(1.08);
+}
+
+.add-node img {
+  height: 100%;
+}
+
+.remove-node {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  transition: all 250ms ease;
+}
+
+.remove-node:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.remove-node:active {
+  transform: scale(1.08);
+}
+
+.remove-node img {
+  height: 100%;
+}
